@@ -70,19 +70,3 @@ if len(res_list):
     print(max(res_list))
 else:
     print(0)
-
-print(max(res_list))
-
-nx = -1
-print(0 > nx or nx >= 7)
-
-graph = [[2, 0, 0, 0, 1, 1, 0],[0, 0, 1, 0, 1, 2, 0],[0, 1, 1, 0, 1, 0, 0],[0, 1, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 1, 1],[0, 1, 0, 0, 0, 0, 0],[0, 1, 0, 0, 0, 0, 0]]
-
-bfs(0,0,graph)
-print(graph)
-
-a = [0,0]
-b = a
-b[1] = 1 
-print(a,b)
-
